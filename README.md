@@ -1,2 +1,23 @@
-# boilerplate-codepipeline-slack-notification-lambda
-This is a utility Lambda that can be used by AWS CodePipeline to send status updates to a given Slack channel.
+# Cloud Architecture CodePipeline Slack Notification Lambda
+
+This repository contains a Lambda function which can post messages about the state of an AWS CodePipeline to a slack channel.
+
+## Table of Contents
+
+- [Version-Specific Documentation](#version-specific-documentation)
+- [License](#license)
+
+# Version-Specific Documentation
+
+- [Version One (v1) README](v1/README.md): Documentation for the main version that uses the current base infrastructure.  Go to this [README](v1/README.md) if you are looking for quick-start instructions.
+
+# Project CI/CD Versions
+
+- [Version One](v1): This version of the boilerplate works with the standard base infrastructure.
+    * The standard base infrastructure is located here: [boilerplate-aws-account-setup](https://github.com/warnermedia/boilerplate-aws-account-setup)
+    * This version uses manual approval steps to move the current artifacts through the flow.
+    * This version is the current active version and the one folks should typically use.
+
+# License
+
+This repository is released under [the MIT license](https://en.wikipedia.org/wiki/MIT_License).  View the [local license file](./LICENSE).
