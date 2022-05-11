@@ -21,3 +21,5 @@ This repository contains a Lambda function which can post messages about the sta
 # License
 
 This repository is released under [the MIT license](https://en.wikipedia.org/wiki/MIT_License).  View the [local license file](./LICENSE).
+
+Sample change to test the CLA Assitant.
